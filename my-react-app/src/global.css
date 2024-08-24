@@ -82,6 +82,10 @@ h1 {
   cursor: pointer;
   transition: background 0.3s ease;
 }
+.todo-btn:hover {
+  background: #5e0e7a;
+}
+
 
 .Todo {
   display: flex;
