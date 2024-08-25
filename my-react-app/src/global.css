@@ -111,6 +111,8 @@ h1 {
   color: #76119b;
   text-decoration: line-through;
   cursor: pointer;
+  border-left: 3px solid #76119b;
+  padding-left: 8px;
 }
 
 .edit-icon,
