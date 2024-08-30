@@ -103,6 +103,10 @@ h1 {
   margin-left: 0.75rem;
 }
 
+.fa-trash:hover {
+  color: #ff4d4d;
+}
+
 .incompleted {
   color: #fff;
   cursor: pointer;
