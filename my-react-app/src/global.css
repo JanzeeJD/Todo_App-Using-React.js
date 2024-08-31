@@ -38,6 +38,7 @@ body::before {
 .App {
   text-align: center;
   z-index: 1;
+  cursor: default;
 }
 
 h1 {
