@@ -13,7 +13,7 @@ export const TodoForm = ({addTodo})=>{
   return(
     <form className="TodoForm" onSubmit={handleSubmit}>
       <input type="text" className="todo-input" autoComplete="off" minLength="1" value={value}
-      placeholder="What is the task today?" onChange={handleChange}/>
+      placeholder="Enter your task" onChange={handleChange}/>
       <button type="submit" className="todo-btn">Add Task</button>
     </form>
   )
