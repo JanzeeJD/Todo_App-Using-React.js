@@ -15,6 +15,7 @@ export const TodoForm = ({addTodo})=>{
       <input type="text" className="todo-input" autoComplete="off" minLength="1" value={value}
       placeholder="Enter your task" aria-label="task input" onChange={handleChange}/>
       <button type="submit" className="todo-btn">Add Task</button>
+      console.log("Task submitted:", value);
     </form>
   )
 }
